@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React, { SVGProps } from "react";
 
 interface SidebarRowProps {
     Icon: (props: SVGProps<SVGSVGElement>) => JSX.Element;

@@ -18,7 +18,10 @@ const Home: NextPage<HomeProps> = ({ tweets }) => {
     return (
         <div className="mx-auto max-h-screen lg:max-w-6xl">
             <Head>
-                <title>Twitter Clone</title>
+                <title>
+                    Twitter Clone - built with TypeScript, React, NextJS &
+                    TailwindCSS
+                </title>
             </Head>
 
             <Toaster />
